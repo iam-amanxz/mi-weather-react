@@ -1,0 +1,49 @@
+.app {
+  /* Dynamic Background Image && Backdrop Filter */
+  width: 100vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  backdrop-filter: blur(30px);
+}
+
+.app__container {
+  padding: 40px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.app__logo {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.searchForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 15px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  color: inherit;
+  outline: none;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .app__elements {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app__widget {
+    margin-right: 80px;
+  }
+}

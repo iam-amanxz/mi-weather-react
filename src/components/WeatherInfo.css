@@ -1,0 +1,72 @@
+.weatherInfo {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .weatherInfo {
+    width: 400px;
+  }
+}
+
+.weatherInfo--card1 {
+  display: flex;
+}
+.card1--left,
+.card1--right {
+  display: flex;
+  align-items: center;
+}
+
+.card2__el {
+  display: flex;
+}
+.card2__left {
+  display: flex;
+}
+
+.weatherInfo--card1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.card1--left__icon,
+.card1--right__icon {
+  margin-right: 20px;
+}
+
+.card1--left__text,
+.card1--right__text {
+  line-height: 1.8;
+}
+
+.card1--right__icon,
+.card1--left__icon {
+  font-size: 25px;
+}
+
+.weatherInfo--card2 {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.card2__el {
+  justify-content: space-between;
+}
+
+.card2__el:not(:last-child) {
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card2__left--icon {
+  margin-right: 20px;
+  font-size: 25px;
+}
